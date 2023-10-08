@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body background="images/bg.jpg">
+    <section id="home" >
+        <nav>
+            <div style="background-color: black; padding: 15px; text-align: center;">
+                <a href="#about" style="color: white; font-size: 20px; margin-right: 20px; text-decoration: none;">About</a>
+                <a href="#resume" style="color: white; font-size: 20px; margin-right: 20px; text-decoration: none;">Resume</a>
+                <a href="#portfolio" style="color: white; font-size: 20px; margin-right: 20px; text-decoration: none;">Portfolio</a>
+                <a href="#contact" style="color: white; font-size: 20px; margin-right: 20px; text-decoration: none;">Contact</a>
+            </div>
+        </nav>
+        <img src="images/img.jpg" alt="" height="280px" width="240px" style="float: right;">
+
+        <h1>Hello</h1>
+        <h1>I'm <b style="font-size: xx-large;">Naeem Shah</b></h1>
+        <h4><p>Student at the University of Engineering and Technology Peshawar <br>studying Computer Science with career interest in Web Development</p></h4>
+    
+        <section id="about" style="padding: 50px 0;">
+        <div>
+            <h2>About Me:</h2>
+            <p>Hello! My name is Naeem Shah,currently a BS student at the Department of Computer Science, <br>University of Engineering and Technology,Peshawar.</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVA SCRIFT</li>
+                <li>NODE.JS</li>
+            </ul>
+        </div>
+
+    </section>
+    <section id="resume" style="padding: 80px 0;">
+        <div>
+            <h2>Education</h2>
+            <ul>
+                <li><p>I completed matric from Mardan Model School Mardan back in 2018.</p></li>
+                <li><p>Did FSC from Peace College Mardan in 2020.</p></li>
+                <li>Currently doing Computer Science form UET Peshawar</li>
+            </ul>
+            
+
+        </div>
+    </section>
+    <section id="portfolio" style="padding: 80px 0;">
+        <div>
+            <h2>Projects</h2>
+            <h2>Weather Web App</h2>
+            <h4>To show weather information use: Open Weather MAP API</h4>
+            <h4>Developers usually get this suggestion a lot but weather apps are a great way to showcase that you know how to make something look good. <br>There are many weather apps out there, but this project will give you space to experiment and make something that is visually appealing, <br>and learn more about APIs along the way.</h4>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <h2>Contact</h2>
+                <form action="/submit" method="post">
+                    <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                    <label for="course">Select</label>
+                    <select id="course" name="course">
+                        <option value="engineering">Engineering</option>
+                        <option value="business">Business</option>
+                        <option value="medicine">Medicine</option>
+                        <option value="arts">Arts</option>
+                    </select><br><br>
+                    <label for="comments">Additional Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+                    <button type="submit" name="submit" id="submitButton">Submit</button>
+                </form>
+                <h2>Contact Information</h2>
+                <p>Email: nshahlive02@gmail.com</p>
+                <p>Linkedin: <a href="https://www.linkedin.com/feed/">Visit</a></p>
+               
+        </div>
+    </section>
+</body>
+</html>
